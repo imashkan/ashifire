@@ -225,6 +225,8 @@ function create_config( )
     "all",
     "leave_ban",
     "admin"
+    "feedback"
+    "echo"
     },
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
@@ -410,12 +412,17 @@ will return group logs
 !banlist
 will return group ban list
 
-**U can use both "/" and "!" 
+!feedback
+pm to admin
 
+!echo *****
 
-*Only owner and mods can add bots in group
-
-
+!fire
+fire
+!ashi
+ashi
+about admin 
+**U can use both "/" and "!"
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
 Admins: @ashi_admin1_kaboos
