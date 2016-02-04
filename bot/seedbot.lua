@@ -311,9 +311,8 @@ This command will send text to [group_id]
 *Only admins and sudo can add bots in group
 
 
-*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings commands
-
-*Only admins and sudo can use res, setowner, commands
+*Only admins and sudo can use kick,ban,unban,newlink,setphoto,setname,lock,unlock,set rules,set about and settings 
+Admins: @ashi_admin1_kaboos
 ]],
     help_text = [[
 Commands list :
@@ -419,7 +418,7 @@ will return group ban list
 
 *Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
 
-*Only owner can use res,setowner,promote,demote and log commands
+Admins: @ashi_admin1_kaboos
 
 ]]
   }
