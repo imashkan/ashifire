@@ -300,7 +300,6 @@ Grt a logfile of current group or realm
 !broadcast [text]
 !broadcast Hello !
 Send text to all groups
-Only sudo users can run this command
 
 !bc [group_id] [text]
 !bc 123456789 Hello !
@@ -418,12 +417,9 @@ pm to admin
 !echo *****
 
 !fire
-fire
 !ashi
-ashi
 about admin 
-**U can use both "/" and "!"
-*Only moderators and owner can use kick,ban,unban,newlink,link,setphoto,setname,lock,unlock,set rules,set about and settings commands
+فقط از !__/استفاده شود
 
 Admins: @ashi_admin1_kaboos
 
