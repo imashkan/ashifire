@@ -238,72 +238,71 @@ An advance Administration bot based on yagop/telegram-bot
 
 Admins
 @ashi_admin1_kaboos [Founder]
-@sajad_admin2_kaboos [Developer]
 
 
 Special thanks to
-Ashi sudo and sajad admin
+Ashi sudo
 ]],
     help_text_realm = [[
 Realm Commands:
 
-C,creategroup [Name]
+creategroup [Name]
 Create a group
 
-C,createrealm [Name]
+createrealm [Name]
 Create a realm
 
-S,setname [Name]
+setname [Name]
 Set realm name
 
-S,setabout [GroupID] [Text]
+setabout [GroupID] [Text]
 Set a group's about text
 
-S,setrules [GroupID] [Text]
+setrules [GroupID] [Text]
 Set a group's rules
 
-L,lock [GroupID] [setting]
+lock [GroupID] [setting]
 Lock a group's setting
 
-U,unlock [GroupID] [setting]
+unlock [GroupID] [setting]
 Unock a group's setting
 
-W,wholist
+wholist
 Get a list of members in group/realm
 
-W,who
+who
 Get a file of members in group/realm
 
-T,type
+type
 Get group type
 
-K,kill chat [GroupID]
+kill chat [GroupID]
 Kick all memebers and delete group
 
-K,kill realm [RealmID]
+kill realm [RealmID]
 Kick all members and delete realm
 
-A,addadmin [id|username]
+addadmin [id|username]
 Promote an admin by id OR username *Sudo only
 
-R,removeadmin [id|username]
+removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
 
-L,list groups
+list groups
 Get a list of all groups
 
-L,list realms
+list realms
 Get a list of all realms
 
-L,log
+log
 Grt a logfile of current group or realm
 
-B,broadcast [text]
-B,broadcast Hello !
+broadcast [text]
+broadcast Hello !
 Send text to all groups
 
-B,bc [group_id] [text]
-B,bc 123456789 Hello !
+bc [group_id] [text]
+bc 123456789 Hello !
 This command will send text to [group_id]
 
 
@@ -316,106 +315,106 @@ Admins: @ashi_admin1_kaboos
     help_text = [[
 Commands list :
 
-K,kick [username|id]
+kick [username|id]
 You can also do it by reply
 
-B,ban [ username|id]
+ban [ username|id]
 You can also do it by reply
 
-U,unban [id]
+unban [id]
 You can also do it by reply
 
-W,who
+who
 Members list
 
-M,modlist
+modlist
 Moderators list
 
-P,promote [username]
+promote [username]
 Promote someone
 
-D,demote [username]
+demote [username]
 Demote someone
 
-K,kickme
+kickme
 Will kick user
 
-A,about
+about
 Group description
 
-S,setphoto
+setphoto
 Set and locks group photo
 
-S,setname [name]
+setname [name]
 Set group name
 
-R,rules
+rules
 Group rules
 
-I,id
+id
 return group id or user id
 
-H,help
+help
 
-L,lock [member|name|bots|leave]	
+lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
 
-U,unlock [member|name|bots|leave]
+unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
 
-S,set rules <text>
+set rules <text>
 Set <text> as rules
 
-S,set about <text>
+set about <text>
 Set <text> as about
 
-S,settings
+settings
 Returns group settings
 
-N,newlink
+newlink
 create/revoke your group link
 
-L,link
+link
 returns group link
 
-O,owner
+owner
 returns group owner id
 
-S,setowner [id]
+setowner [id]
 Will set id as owner
 
-S,setflood [value]
+setflood [value]
 Set [value] as flood sensitivity
 
-S,stats
+stats
 Simple message statistics
 
-S,save [value] <text>
+save [value] <text>
 Save <text> as [value]
 
-G,get [value]
+get [value]
 Returns text of [value]
 
-C,clean [modlist|rules|about]
+clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
-R,res [username]
+res [username]
 returns user id
 "!res @username"
 
-L,log
+log
 will return group logs
 
-B,banlist
+banlist
 will return group ban list
 
-F,feedback
+feedback
 pm to admin
 
-E,echo (your text)
+echo (your text)
 
-F,fire
-A,ashi
+fire
+ashi
 
 Admins: @ashi_admin1_kaboos
 
