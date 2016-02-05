@@ -71,13 +71,13 @@ local function run(msg,matches)
 end
 return {
   patterns = {
-    "^[Pp](m) (%d+) (.*)$",
-    "^[Ii](mport) (.*)$",
-    "^[Uu](nblock) (%d+)$",
-    "^[Bb](lock) (%d+)$",
-	"^[Mm](arkread) (on)$",
-	"^[Mm](arkread) (off)$",
-    "^[Ss](etbotphoto)$",
+    "^(pm) (%d+) (.*)$",
+    "^(import) (.*)$",
+    "^(unblock) (%d+)$",
+    "^(block) (%d+)$",
+	"^(markread) (on)$",
+	"^(markread) (off)$",
+    "^(setbotphoto)$",
 	"%[(photo)%]"
   },
   run = run,
