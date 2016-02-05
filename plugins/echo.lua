@@ -13,7 +13,7 @@ return {
   description = "Simplest plugin ever!",
   usage = "!echo [whatever]: echoes the msg",
   patterns = {
-    "^[Ee](cho) +(.+)$"
+    "^(echo) +(.+)$"
   }, 
   run = run 
 }
