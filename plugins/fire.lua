@@ -7,10 +7,10 @@ return {
   description = "Says about fire ", 
   usage = "!fire or fire : Return Information about fire hehehe",
   patterns = {
-    "^[Aa](shi)$",
-    "^[Ff](ire)$",
-    "^[ا](شی)$",
-    "^[ف](یر)$",
+    "^(اشی)$",
+    "^(فایر)$",
+    "^(ashi)$",
+    "^(fire)$",
   },
   run = run
 }
