@@ -232,7 +232,7 @@ function create_config( )
     sudo_users = {81444630},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Telefire v2 - Open Source
+    about_text = [[Telefire v3 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
 
@@ -247,67 +247,64 @@ Ashi sudo and sajad admin
     help_text_realm = [[
 Realm Commands:
 
-!creategroup [Name]
+C,creategroup [Name]
 Create a group
 
-!createrealm [Name]
+C,createrealm [Name]
 Create a realm
 
-!setname [Name]
+S,setname [Name]
 Set realm name
 
-!setabout [GroupID] [Text]
+S,setabout [GroupID] [Text]
 Set a group's about text
 
-!setrules [GroupID] [Text]
+S,setrules [GroupID] [Text]
 Set a group's rules
 
-!lock [GroupID] [setting]
+L,lock [GroupID] [setting]
 Lock a group's setting
 
-!unlock [GroupID] [setting]
+U,unlock [GroupID] [setting]
 Unock a group's setting
 
-!wholist
+W,wholist
 Get a list of members in group/realm
 
-!who
+W,who
 Get a file of members in group/realm
 
-!type
+T,type
 Get group type
 
-!kill chat [GroupID]
+K,kill chat [GroupID]
 Kick all memebers and delete group
 
-!kill realm [RealmID]
+K,kill realm [RealmID]
 Kick all members and delete realm
 
-!addadmin [id|username]
+A,addadmin [id|username]
 Promote an admin by id OR username *Sudo only
 
-!removeadmin [id|username]
+R,removeadmin [id|username]
 Demote an admin by id OR username *Sudo only
 
-!list groups
+L,list groups
 Get a list of all groups
 
-!list realms
+L,list realms
 Get a list of all realms
 
-!log
+L,log
 Grt a logfile of current group or realm
 
-!broadcast [text]
-!broadcast Hello !
+B,broadcast [text]
+B,broadcast Hello !
 Send text to all groups
 
-!bc [group_id] [text]
-!bc 123456789 Hello !
+B,bc [group_id] [text]
+B,bc 123456789 Hello !
 This command will send text to [group_id]
-
-
-**U can use both "/" and "!" 
 
 
 *Only admins and sudo can add bots in group
@@ -319,108 +316,106 @@ Admins: @ashi_admin1_kaboos
     help_text = [[
 Commands list :
 
-!kick [username|id]
+K,kick [username|id]
 You can also do it by reply
 
-!ban [ username|id]
+B,ban [ username|id]
 You can also do it by reply
 
-!unban [id]
+U,unban [id]
 You can also do it by reply
 
-!who
+W,who
 Members list
 
-!modlist
+M,modlist
 Moderators list
 
-!promote [username]
+P,promote [username]
 Promote someone
 
-!demote [username]
+D,demote [username]
 Demote someone
 
-!kickme
+K,kickme
 Will kick user
 
-!about
+A,about
 Group description
 
-!setphoto
+S,setphoto
 Set and locks group photo
 
-!setname [name]
+S,setname [name]
 Set group name
 
-!rules
+R,rules
 Group rules
 
-!id
+I,id
 return group id or user id
 
-!help
+H,help
 
-!lock [member|name|bots|leave]	
+L,lock [member|name|bots|leave]	
 Locks [member|name|bots|leaveing] 
 
-!unlock [member|name|bots|leave]
+U,unlock [member|name|bots|leave]
 Unlocks [member|name|bots|leaving]
 
-!set rules <text>
+S,set rules <text>
 Set <text> as rules
 
-!set about <text>
+S,set about <text>
 Set <text> as about
 
-!settings
+S,settings
 Returns group settings
 
-!newlink
+N,newlink
 create/revoke your group link
 
-!link
+L,link
 returns group link
 
-!owner
+O,owner
 returns group owner id
 
-!setowner [id]
+S,setowner [id]
 Will set id as owner
 
-!setflood [value]
+S,setflood [value]
 Set [value] as flood sensitivity
 
-!stats
+S,stats
 Simple message statistics
 
-!save [value] <text>
+S,save [value] <text>
 Save <text> as [value]
 
-!get [value]
+G,get [value]
 Returns text of [value]
 
-!clean [modlist|rules|about]
+C,clean [modlist|rules|about]
 Will clear [modlist|rules|about] and set it to nil
 
-!res [username]
+R,res [username]
 returns user id
 "!res @username"
 
-!log
+L,log
 will return group logs
 
-!banlist
+B,banlist
 will return group ban list
 
-!feedback
+F,feedback
 pm to admin
 
-!echo *****
+E,echo (your text)
 
-!fire
-!ashi
-about admin 
-فقط از !__/استفاده شود
+F,fire
+A,ashi
 
 Admins: @ashi_admin1_kaboos
 
