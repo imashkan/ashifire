@@ -31,9 +31,9 @@ end
 return {
   description = "Feedback",
 
-  usage = "!feedback :نظر خود را ارسال کنید",
+  usage = "feedback :نظر خود را ارسال کنید",
   patterns = {
-    "^[Ff](eedback) (.*)$"
+    "^(feedback) (.*)$"
 
   },
   run = run
