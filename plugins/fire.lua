@@ -9,8 +9,8 @@ return {
   patterns = {
     "^[Aa](shi)$",
     "^[Ff](ire)$",
-    "^[!/]([Ff]ire)$",
-    "^[!/]([Aa]shi)$",
+    "^[ا](شی)$",
+    "^[ف](یر)$",
   },
   run = run
 }
