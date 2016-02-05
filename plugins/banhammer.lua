@@ -320,7 +320,7 @@ return {
     "^[Uu](nbanall)$",
     "^[Kk](ick) (.*)$",
     "^[Kk](ickme)$",
-    "^[!/]([Bb]an)$",
+    "^[Bb](an)$",
     "^[Uu](nban)$",
     "^[Ii](d)$",
     "^!!tgservice (.+)$"
