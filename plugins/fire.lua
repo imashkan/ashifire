@@ -9,8 +9,8 @@ return {
   patterns = {
     "^(اشی)$",
     "^(فایر)$",
-    "^(ashi)$",
-    "^(fire)$",
+    "^[!/](ashi)$",
+    "^[!/](fire)$"
   },
   run = run
 }
