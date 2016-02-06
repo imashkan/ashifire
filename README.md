@@ -438,8 +438,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ```bash
 # lets install the bot
 cd $HOME
-git clone https://github.com/ashkanpj/seedfire.git
-cd seedfire
+git clone https://github.com/imashkan/ashifire.git
+cd ashifire
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
